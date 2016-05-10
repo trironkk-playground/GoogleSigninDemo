@@ -1,0 +1,28 @@
+<html>
+<script type="text/javascript" src="javascript.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="747800056371-gossqmkv193epi8h72ceuercd8regm03.apps.googleusercontent.com">
+
+<head>
+  <center>
+    <h1>
+      Google Signin Demo
+    </h1>
+  </center>
+</head>
+<body>
+
+  <div id="action">
+    <div
+      class="g-signin2"
+      data-onsuccess="onSignIn"
+      data-onfailure="onSignInFailure"
+      data-theme="dark"
+    >
+    </div>
+  </div>
+  <div id="status"></div>
+
+  <a href="#" onclick="signOut();">Sign out</a>
+</body>
+</html>
